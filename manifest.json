@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "fbfocus",
+  "version": "1.0",
+  "description": "Turn Facebook into a messaging app only",
+  "content_scripts": [
+    {
+      "matches": ["https://www.facebook.com/*"],
+      "css": ["hide.css"]
+    }
+  ]
+}

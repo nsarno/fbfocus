@@ -1,0 +1,9 @@
+#content {
+  visibility: hidden;
+  margin-left: 0;
+}
+
+#pagelet_ticker {
+  visibility: hidden;
+  height: 0 !important;
+}
